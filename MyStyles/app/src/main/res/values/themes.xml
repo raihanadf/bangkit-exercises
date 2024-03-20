@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyStyles" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--         Customize your light theme here.-->
+        <item name="colorPrimary">#009688</item>
+    </style>
+
+    <style name="Theme.MyStyles" parent="Base.Theme.MyStyles" />
+
+    <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#03A9F4</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="TitleStyle.Red">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>
